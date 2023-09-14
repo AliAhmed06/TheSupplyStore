@@ -3,9 +3,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=' w-full bg-white text-black border-t-2 border-first relative'>
+    <div className=' w-full bg-[#5747a8] text-white border-t-2 border-first relative'>
       <div className='w-[80%] mx-auto py-10'>
-        <div className='bg-first p-7 mx-auto flex flex-col items-center justify-between gap-5 mt-[-100px] 
+        <div className='bg-second p-7 mx-auto flex flex-col items-center justify-between gap-5 mt-[-100px] 
                         lg:w-[60%] '>
           <h3 className='text-3xl font-semibold text-white'>Subscribe to Our Newsletter</h3>
           <div className='w-full lg:px-10 flex flex-col md:flex-row items-center justify-center gap-5'>
@@ -15,11 +15,11 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className='bg-white grid grid-cols-1 gap-20 items-start pt-10 
+        <div className='bg-[#5747a8] grid grid-cols-1 gap-20 items-start pt-10 
                         md:grid-cols-2 lg:grid-cols-4 lg:gap-10'>
-          <img src="/images/footer/footer-building.png" className='absolute right-0 hidden lg:block' alt="" />
+          <img src="/images/footer/footer-building.png" className='absolute right-0 bottom-0 hidden lg:block h-[320px]' alt="" />
           <div className='flex flex-col items-center justify-center gap-10'>
-            <img src="/images/logo.png" alt="logo" className='h-[120px]' />
+            <img src="/images/logo2.png" alt="logo" className='h-[120px]' />
             <p className='text-justify'>At vero eos et accusamus et iusto odio dignissimods ducimus qui blanditiis huii.</p>
             <div className='flex gap-5'>
               <Link href={"#"}><img src="/images/footer/visa.PNG" alt="" className='h-[40px]' /></Link>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div> 
 
           <div className='flex flex-col items-start justify-center gap-10'>            
-            <h3 className='text-xl font-semibold text-black'>Contact Us</h3>
+            <h3 className='text-xl font-semibold text-white'>Contact Us</h3>
             <span className=' bg-first self-start h-[2px] w-[60px] mt-[-20px]'></span>
             <div className='flex flex-col gap-5'>
               <Link href={"#"} className=' hover:text-first' >18-07 Astoria Boulevard <br/> Long Island City, NY 11102</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div> 
 
           <div className='flex flex-col items-start justify-center gap-10'>            
-            <h3 className='text-xl font-semibold text-black'>Our Services</h3>
+            <h3 className='text-xl font-semibold text-white'>Our Services</h3>
             <span className=' bg-first self-start h-[2px] w-[60px] mt-[-20px]'></span>
             <div className='flex flex-col gap-5'>              
               <Link href={"#"} className=' hover:text-first'>Your Account</Link>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div> 
 
           <div className='flex flex-col items-start justify-center gap-10'>            
-            <h3 className='text-xl font-semibold text-black'>Information</h3>
+            <h3 className='text-xl font-semibold text-white'>Information</h3>
             <span className=' bg-first self-start h-[2px] w-[60px] mt-[-20px]'></span>
             <div className='flex flex-col gap-5'>
               <Link href={"#"} className=' hover:text-first' >About Us</Link>

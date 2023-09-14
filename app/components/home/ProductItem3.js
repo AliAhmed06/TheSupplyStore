@@ -28,16 +28,16 @@ const ProductItem3 = ({title, price, oldPrice, rating, img, discount, descriptio
             <img src={img} alt="" className="w-full object-contain" />
         </div>
         <div className='mt-5 w-full'>
-            {/* <div className='flex'>
+            <div className='flex'>
                 { stars.map((item) => (
                     item <= rating ? <AiFillStar key={item} className='text-golden' /> : <AiOutlineStar key={item} className='text-golden' />
                 )) }
-            </div> */}
+            </div>
             <h3 className='text-gray2'>{title}</h3>
-            {/* <div className='space-x-3'>
+            <div className='space-x-3'>
                 { oldPrice && <span className='text-red line-through'>${oldPrice.toFixed(2)}</span> }                
-                <span className='text-red font-semibold'>${price}</span>
-            </div> */}
+                <span className='text-red font-semibold'>${Number(price).toFixed(2)}</span>
+            </div>
             <p className='text-gray2 py-5'>{description}</p>
         </div>
     </div>

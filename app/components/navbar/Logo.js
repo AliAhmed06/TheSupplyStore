@@ -6,7 +6,7 @@ const Logo = ({navbar, setNavbar}) => {
   return (
     <div className="flex items-center justify-between">
         <div>
-          <img src="/images/logo.png" alt="" className="h-[130px]" />
+          <img src="/images/logo.png" alt="" className="h-[110px]" />
         </div>
         
         

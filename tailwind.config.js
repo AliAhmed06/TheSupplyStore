@@ -22,8 +22,8 @@ module.exports = {
       'gray2': '#7a7a7a',
       'red': '#d33131',
       'golden': '#f2b600',
-      'first': '#14A00B',
-      'second': '#14A00B',
+      'first': '#5245a4',
+      'second': '#ce4b3c',
       'bermuda': '#78dcca',
     },
     screens: {
