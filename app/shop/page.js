@@ -136,7 +136,7 @@ const Shop = () => {
     <div className='mb-20'>
       {/* Page Title Section */}
       <div className='text-center py-10'>
-        <h2 className='font-bold text-2xl'>Shop</h2>
+        <h2 className='font-bold text-2xl text-second'>Products</h2>
         <p className='text-gray2 text-sm'>Home <span className='tracking-[-2px]'>&gt;&gt;</span>  Shop </p>
       </div>
 

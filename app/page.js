@@ -86,7 +86,7 @@ export default function Home() {
 
 
       {/* Services Section */}
-      <section className="min-h-[300px] bg-black mt-[50px] p-10 flex">
+      <section className="min-h-[300px] bg-[url('/images/home/services-bg.png')] bg-cover bg-center mt-[50px] p-10 flex">
           <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center mx-auto text-white  gap-10 lg:gap-24">
             <ServicesItem img="/images/home/service1.png" title1={"Fast Free Shipping"} title2={"On Orders $50 or More"} />            
             <ServicesItem img="/images/home/service2.png" title1={"Best Online Support"} title2={"24/7 amazing services"} />            

@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div className='bg-[#5747a8] grid grid-cols-1 gap-20 items-start pt-10 
                         md:grid-cols-2 lg:grid-cols-4 lg:gap-10'>
-          <img src="/images/footer/footer-building.png" className='absolute right-0 bottom-0 hidden lg:block h-[320px]' alt="" />
+          {/* <img src="/images/footer/footer-building.png" className='absolute right-0 bottom-0 hidden lg:block h-[320px]' alt="" /> */}
           <div className='flex flex-col items-center justify-center gap-10'>
             <img src="/images/logo2.png" alt="logo" className='h-[120px]' />
             <p className='text-justify'>At vero eos et accusamus et iusto odio dignissimods ducimus qui blanditiis huii.</p>
