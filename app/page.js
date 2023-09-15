@@ -8,7 +8,6 @@ import ProductItem2 from "./components/home/ProductItem2";
 import { LiaShippingFastSolid } from 'react-icons/lia';
 import ServicesItem from "./components/home/ServicesItem";
 
-
 export default function Home() {
   return (
     <div className="w-full min-h-screen mb-[150px]">
